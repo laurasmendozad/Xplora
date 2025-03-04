@@ -44,11 +44,10 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-
+                <configuration>
+                    <mainClass>com.backend.XploraApplication</mainClass>
+                </configuration>
             </plugin>
-        <configuration>
-           <mainClass>com.backend.XploraApplication</mainClass>
-        </configuration>
         </plugins>
     </build>
 
