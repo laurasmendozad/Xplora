@@ -1,5 +1,3 @@
-use xplora_db;
-
 INSERT INTO categoria (nombre) VALUES
     ('Aventuras y deportes'),
     ('Gastronomia'),
